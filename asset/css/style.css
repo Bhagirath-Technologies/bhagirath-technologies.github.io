@@ -290,3 +290,48 @@
     font-size: 13px;
     color: #ddd;
 }
+
+.contact-us .info {
+    width: 100%;
+    background: var(--white-color);
+  }
+  
+  .contact-us .info i {
+    font-size: 20px;
+    color: var(--main-color);
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(13, 130, 165);
+    color: white;
+  }
+  
+  .contact-us .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #24325d;
+  }
+  
+  .contact-us .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #405aa7;
+  }
+  
+  .contact-us .info .email,
+  .contact-us .info .phone,
+  .contact-us .info .Watch {
+    margin-top: 40px;
+  }
+  
+
+  
