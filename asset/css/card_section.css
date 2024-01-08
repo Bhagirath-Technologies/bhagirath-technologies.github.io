@@ -21,6 +21,10 @@ margin: auto;
 }
 .one-circle,.two-circle,.three-circle,.four-circle,.five-circle,.six-circle img{
 padding-top: 1rem;
+
+}
+.one,.two,.three,.four,.five,.six p{
+ padding: 1rem;
 }
 .two{
     height: 320px;
