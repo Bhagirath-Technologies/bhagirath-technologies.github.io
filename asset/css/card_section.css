@@ -1,0 +1,131 @@
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1.5rem;
+}
+.one{   
+     height: 320px;
+width: 310px;
+background-color:  #1d3b6a;
+color: white;
+text-align: center;
+}
+.one-circle{
+    background-color: #1d3bca;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+margin: auto;
+
+}
+.one-circle,.two-circle,.three-circle,.four-circle,.five-circle,.six-circle img{
+padding-top: 1rem;
+}
+.two{
+    height: 320px;
+    width: 300px;
+    background-color:  #1d3b6a;
+    color: white;
+text-align: center;
+}
+.two-circle{
+    background-color: #1d3bca;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+margin: auto;
+
+}
+
+
+
+
+.three{
+    height: 320px;
+    width: 300px;
+    background-color:  #1d3b6a;
+    color: white;
+text-align: center;
+}
+.three-circle{
+    background-color: #1d3bca;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+margin: auto;
+
+}
+
+
+.dowan{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+.four{  
+    height: 320px;
+width: 310px;
+background-color:  #1d3b6a;
+color: white;
+text-align: center;
+
+}
+.four-circle{
+    background-color: #1d3bca;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+margin: auto;
+
+}
+.five{
+   height: 320px;
+   width: 300px;
+   background-color:  #1d3b6a;
+   color: white;
+text-align: center;
+
+}
+.five-circle{
+    background-color: #1d3bca;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+margin: auto;
+
+}
+.six{
+   height: 320px;
+   width: 300px;
+   background-color:  #1d3b6a;
+   color: white;
+text-align: center;
+}
+.six-circle{
+    background-color: #1d3bca;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+margin: auto;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px)
+{
+    .up{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .dowan{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
