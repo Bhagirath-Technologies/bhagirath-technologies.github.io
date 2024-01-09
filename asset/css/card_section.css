@@ -1,4 +1,4 @@
-.up{
+/* .up{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -132,4 +132,112 @@ margin: auto;
         flex-direction: column;
         gap: 1rem;
     }
+} */
+    
+
+
+body{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 50px;
+    padding: 100px 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 350px;
+    height: 370px;
+    /* gap: 20px y; */
+    background-color: #1D3B6A;
+    border-radius: 20px;
+    box-sizing: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.6s;
+}
+
+.container .card:hover {
+    /* height: 320px; */ 
+}
+
+.container .card .imgBx {
+    position: absolute;
+    top: 20px;
+    left: 37%;
+    border-radius: 12px;
+    transition: 0.5s;
+    width: 80px;
+    height: 80px;
+    background: #333;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.container .card:hover .imgBx {
+    top: -30px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+}
+
+.imgBx img {
+    width: 50px;
+    object-fit: cover;
+}
+
+.container .card .content {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    padding: 0, 30px;
+    text-align: center;
+    height: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.container .card:hover .content {
+    height: 250px;
+    top: 150px;
+
+}
+
+.container .card .content h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.container .card .content p {
+    color: whitesmoke;
+    font-size: 1.05em;
+    padding-bottom: 10px;
+
+}
+
+.container .card .content a {
+    color: black;
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
 }
