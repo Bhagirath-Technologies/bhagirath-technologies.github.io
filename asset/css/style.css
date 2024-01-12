@@ -161,10 +161,9 @@
         text-align: center;
     }
 }
-@media only screen and (max-width:900px){
+@media only screen and (max-width:1000px){
     #footer{
         margin-top: 123px;
-        height: 150vh;
     }
 }
 #footer .footer-top .social-links a {
