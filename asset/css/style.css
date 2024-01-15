@@ -344,4 +344,27 @@
     }
   }
 
-  
+  .vertical-line{
+    height: 1px;
+    width: 80%;
+    background-color:#0d82a5;
+    margin-top: 18px;
+    position: relative;
+    left: 60px;
+  }
+  .contact-details{
+    font-size: 18px;
+     position: relative; 
+     left: 56px;
+  }
+  .contact-details1{
+    font-size: 18px;
+    position: relative; 
+    left: 56px;
+  }
+  .contact-iframes{
+    border:0;
+    width: 100%;
+    height: 510px;
+    margin-top: 75px;
+  }
