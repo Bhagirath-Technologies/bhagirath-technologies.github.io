@@ -1,3 +1,144 @@
+
+html{
+ overflow-x: hidden;
+}
+.carousel-section{
+    margin-top: -10px;
+  }
+
+  .bg_img_1 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../image/Home/hero-1.jpg');
+  }
+  .bg_img_2 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../image/Home/hero-3.jpg');
+  }
+  .bg_img_3 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../image/Home/hero-4.jpg');
+  }
+  .bg_img_4 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../image/Home/hero-5.jpg');
+  }
+  
+  .bg_img_1:before{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+  }
+
+  .bg_style {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90.5vh;
+  }
+  #Carousel-element{
+    margin-top: 115px;
+  }
+  #carousel-top{
+    margin-top: -115px;
+  }
+  #carousel_title {
+    bottom: 38%;
+    color: var(--white-color);
+    font-size: 22px;
+    left: 15%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  .carousel_description {
+    font-size: 22px;
+  }
+  
+  #carousel_title h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+    padding: 0.7rem;
+  }
+ 
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    #carousel_title h1 {
+      bottom: 20% !important;
+      font-size: 30px;
+    }
+  
+    .carousel_description {
+      font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    .carousel-text{
+        position: absolute !important;
+        top: 123px !important;
+        margin-bottom: 123px !important;
+        line-height: 20px;
+    }
+   #line-low{
+        line-height: 37px !important;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    .carousel-text1{
+        position: absolute !important;
+        top: 340px;
+        line-height: 22px;
+    }
+   #line-low1{
+        line-height: 36px !important;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    .carousel-caption1{
+        position: absolute !important;
+        top: 156px !important;
+        line-height: 22px;
+    }
+   #line-low1{
+        line-height: 36px !important;
+    }
+  }
+
+  @media only screen and (max-width:300px) {
+   #line-low1{
+        line-height: 36px !important;
+    }
+   
+  }
+
+  @media only screen and (max-width:300px) {
+    .carousel-text{
+        margin-top: -121px !important;
+        line-height: 20px;
+    }
+  }
+
+ 
+  @media only screen and (max-width:100px) {
+    #carousel_title{
+      align-items: center;
+      color: white;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 1;
+  }
+}
 .dropdown:hover .dropdown-menu {
 
     display: block;
@@ -286,7 +427,7 @@
 
 #footer .copyright {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 #footer .credits {
@@ -360,7 +501,7 @@
   .contact-details1{
     font-size: 18px;
     position: relative; 
-    left: 56px;
+    left: 60px;
   }
   .contact-iframes{
     border:0;
