@@ -1,0 +1,23 @@
+#remove html file extension-https://www.bhagirathtechnologies.com/index.html will become https://www.bhagirathtechnologies.com/index
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.\*)$ $1.html [NC,L]
+
+#remove html file extension-https://www.bhagirathtechnologies.com/contactus.html will become https://www.bhagirathtechnologies.com/contactus
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.\*)$ $1.html [NC,L]
+
+#remove html file extension-https://www.bhagirathtechnologies.com/RaiseRequest.html will become https://www.bhagirathtechnologies.com/RaiseRequest
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.\*)$ $1.html [NC,L]
+
+#remove html file extension-https://www.bhagirathtechnologies.com/Rental.html will become https://www.bhagirathtechnologies.com/Rental
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.\*)$ $1.html [NC,L]
