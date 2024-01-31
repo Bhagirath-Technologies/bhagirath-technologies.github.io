@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -21,6 +22,23 @@ html,body{
     --SpanishSkyBlue-color:#00a0e3;
   }
 #bg-section-1 {
+=======
+
+
+
+body{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+#bg-section-1{
+>>>>>>> 2282f7d87b3d1486081868fa3d92b8fe0e16aaaf
     background-image: url(./asset/image/Home/Graphical_Designing.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,8 +144,13 @@ html,body{
     margin-top: 12px;
 }
 
+<<<<<<< HEAD
 .container-part .cards .contents p {
     color: var(--white-color);
+=======
+.container-part .cards .contents p{
+    color: white
+>>>>>>> 2282f7d87b3d1486081868fa3d92b8fe0e16aaaf
 }
 
 @media (hover: hover) {
