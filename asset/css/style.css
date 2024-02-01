@@ -165,15 +165,15 @@ h6{
 }
 
 .carousel-caption2{
-  position: absolute !important;
+  margin-bottom: 22px;
+  position: absolute;
     top: 123px;
-   
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:800px) {
   .carousel-caption2{
-   position: relative;
-   top: 160px;
+    margin-bottom: 22px;
+    margin-top: 215px !important;
 
   }
 }
@@ -452,14 +452,14 @@ h6{
   color: var(--white-color);
 }
 
-/* #footer .footer-top h4 {
+#footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
   color: var(--white-color);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-} */
+}
 
 #footer .footer-top h4::before,
 #footer .footer-top h4::after {
@@ -475,7 +475,7 @@ h6{
   background: var(--davysgray-color);
 }
 
- #footer .footer-top h4::after {
+#footer .footer-top h4::after {
   background: var(--DarkMidnightBlue-color);
   width: 60px;
 }
@@ -495,12 +495,9 @@ h6{
   color: var(--white-color)
 }
 
-/* #footer .footer-top .footer-links ul li {
+#footer .footer-top .footer-links ul li {
   border-bottom: 1px solid var(--darkcharcoal-color);
   padding: 10px 0;
-} */
-#footer .footer-top .footer-links .unerliine-fotter{
-  margin: 7px;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -558,10 +555,7 @@ h6{
   font-size: 13px;
   color: var(--white-color);
 }
-#footer .credits a{
-  text-decoration: none;
-  color: var(--white-color);
-}
+
 .contact-us .info {
   width: 100%;
   background: var(--white-color);
