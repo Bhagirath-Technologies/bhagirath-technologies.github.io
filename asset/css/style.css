@@ -165,7 +165,6 @@ h6{
 }
 
 .carousel-caption2{
-<<<<<<< HEAD
   position: absolute !important;
     top: 123px;
    
@@ -175,14 +174,6 @@ h6{
   .carousel-caption2{
    position: relative;
    top: 160px;
-=======
- margin-top: 143px !important;
-}
-
-@media only screen and (max-width:2000px) {
-  .carousel-caption2{
-    margin-top: 215px !important;
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
 
   }
 }
@@ -461,22 +452,14 @@ h6{
   color: var(--white-color);
 }
 
-<<<<<<< HEAD
 /* #footer .footer-top h4 {
-=======
-#footer .footer-top h4 {
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
   font-size: 14px;
   font-weight: bold;
   color: var(--white-color);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
 
 #footer .footer-top h4::before,
 #footer .footer-top h4::after {
@@ -492,11 +475,7 @@ h6{
   background: var(--davysgray-color);
 }
 
-<<<<<<< HEAD
  #footer .footer-top h4::after {
-=======
-#footer .footer-top h4::after {
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
   background: var(--DarkMidnightBlue-color);
   width: 60px;
 }
@@ -520,12 +499,7 @@ h6{
   border-bottom: 1px solid var(--darkcharcoal-color);
   padding: 10px 0;
 } */
-<<<<<<< HEAD
 #footer .footer-top .footer-links .unerliine-fotter{
-=======
-
-#footer .footer-top .footer-links .fotter-line{
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
   margin: 7px;
 }
 
@@ -583,7 +557,6 @@ h6{
   text-align: center;
   font-size: 13px;
   color: var(--white-color);
-<<<<<<< HEAD
 }
 #footer .credits a{
   text-decoration: none;
@@ -612,33 +585,6 @@ h6{
   top: -5px;
 }
 
-=======
-}
-
-.contact-us .info {
-  width: 100%;
-  background: var(--white-color);
-}
-
-.contact-us .info i {
-  font-size: 20px;
-  color: var(--main-color);
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: var(--white-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-  background-color: rgb(13, 130, 165);
-  color: var(--white-color);
-  position: relative;
-  top: -5px;
-}
-
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
 .contact-us .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;

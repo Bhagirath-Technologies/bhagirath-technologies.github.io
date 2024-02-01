@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* body{
     display: inline;
     justify-content: center;
@@ -12,65 +11,6 @@
     --SpanishSkyBlue-color:#00a0e3;
   }
 #bg-section-1 {
-=======
-<<<<<<< HEAD
-/* body{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-} */
-
-:root {
-    --white-color: #fff;
-    --black-color:#000;
-    --DarkMidnightBlue-color:#1D3B6A;
-    --SpanishSkyBlue-color:#00a0e3;
-  }
-#bg-section-1 {
-=======
-<<<<<<< HEAD
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,body{
-  height: 100%;
-  width:100%;
-}
-
-/* body{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-} */
-
-:root {
-    --white-color: #fff;
-    --black-color:#000;
-    --DarkMidnightBlue-color:#1D3B6A;
-    --SpanishSkyBlue-color:#00a0e3;
-  }
-#bg-section-1 {
-=======
-
-
-
-body{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-#bg-section-1{
->>>>>>> 2282f7d87b3d1486081868fa3d92b8fe0e16aaaf
->>>>>>> 8408495f53572ddde582694b1bfb9547909c482f
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
     background-image: url(./asset/image/Home/Graphical_Designing.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,15 +29,7 @@ body{
     align-items: flex-start;
     position: relative;
     width: 350px;
-<<<<<<< HEAD
     height: 310px;
-=======
-<<<<<<< HEAD
-    height: 345px;
-=======
-    height: 340px;
->>>>>>> 8408495f53572ddde582694b1bfb9547909c482f
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
     /* gap: 20px y; */
     background-color: var(--DarkMidnightBlue-color);
     border-radius: 20px;
@@ -184,23 +116,8 @@ body{
     margin-top: 12px;
 }
 
-<<<<<<< HEAD
 .container-part .cards .contents p {
     color: var(--white-color);
-=======
-<<<<<<< HEAD
-.container-part .cards .contents p {
-    color: var(--white-color);
-=======
-<<<<<<< HEAD
-.container-part .cards .contents p {
-    color: var(--white-color);
-=======
-.container-part .cards .contents p{
-    color: white
->>>>>>> 2282f7d87b3d1486081868fa3d92b8fe0e16aaaf
->>>>>>> 8408495f53572ddde582694b1bfb9547909c482f
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
 }
 
 @media (hover: hover) {
@@ -222,29 +139,12 @@ body{
 
 
     .container-part .cards {
-<<<<<<< HEAD
         margin-top: 123px;
         height: 275px;
-=======
-<<<<<<< HEAD
-        margin-top: 166px;
-        height: 348px;
-=======
-        margin-top: 165px;
-        height: 340px;
->>>>>>> 8408495f53572ddde582694b1bfb9547909c482f
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
         display: block;
         margin-right: auto;
         margin-left: auto;
         
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        
->>>>>>> 8408495f53572ddde582694b1bfb9547909c482f
->>>>>>> 62523409d53d2febc72e82aeb55fc389b132fe30
     }
 
     .container-part .cards .imgBoxes2 {
