@@ -200,9 +200,7 @@ h6{
   }
 
   .carousel-caption1 {
-    position: absolute !important;
-    top: 156px !important;
-    line-height: 22px;
+    margin-top: 123px;
   }
 
   #line-low1 {
