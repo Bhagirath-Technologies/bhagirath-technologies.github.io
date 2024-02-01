@@ -172,7 +172,6 @@ h6{
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   #carousel_title h1 {
-    /* bottom: 20% !important; */
     font-size: 30px;
     
   }
@@ -184,9 +183,7 @@ h6{
 
 @media only screen and (max-width:500px) {
   .carousel-text {
-    position: absolute !important;
-    top: 123px !important;
-   
+   margin-top: 123px;
     line-height: 20px;
   }
 
@@ -195,9 +192,7 @@ h6{
   }
 
   .carousel-text1 {
-    position: absolute !important;
-    top: 200px;
-    line-height: 22px;
+    margin-top: 110px;
   }
 
   #line-low1 {

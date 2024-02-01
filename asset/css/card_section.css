@@ -1,8 +1,4 @@
-/* body{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 :root {
     --white-color: #fff;
@@ -19,8 +15,6 @@
 .container-part {
     position: relative;
     flex-wrap: wrap;
-    /* gap: 10px 50px; */
-
 }
 
 .container-part .cards {
@@ -30,7 +24,6 @@
     position: relative;
     width: 350px;
     height: 345px;
-    /* gap: 20px y; */
     background-color: var(--DarkMidnightBlue-color);
     border-radius: 20px;
     box-sizing: 0 35px 80px rgba(0, 0, 0, 0.15);
@@ -53,7 +46,6 @@
     top: 100px;
     transform: translateY(-123px);
     border-radius: 22px;
-
 }
 
 .container-part .cards:hover .imgBoxes2 {
