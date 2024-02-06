@@ -131,12 +131,7 @@
 
     }
 
-    .container-part .cards:hover .imgBoxes2 {
-        position: relative;
-        top: -50px;
-        scale: 0.75;
-        transform: translateY(-90px);
-    }
+  
 
     .container-part .cards .imgBoxes1 {
         position: absolute;
