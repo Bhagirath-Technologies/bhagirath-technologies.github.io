@@ -1,4 +1,6 @@
-<?php include 'header.php'?>
+<?php 
+$pageTitle = 'Rental';
+include 'header.php'?>
 
     <div class="container mt-5">
         <h2 class="text-center"><b>Welcome to Bhagirath Technologies Private Limited!</b></h2>

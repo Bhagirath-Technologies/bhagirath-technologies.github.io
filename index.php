@@ -1,4 +1,7 @@
-<?php include 'header.php'?>
+<?php 
+$pageTitle = 'Home';
+
+include 'header.php'?>
     <section class="carousel-section carousel slide" id="Carousel-element">
         <div id="carouselExampleDark" class="carousel  carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">

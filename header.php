@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/card_section.css">
     <link rel="shortcut icon" href="asset/icons/favicon12345.png" />
-    <title>Home | Bhagirath Technologies</title>
+    <title><?php echo isset($pageTitle) ? $pageTitle : "Default Title"; ?></title>
     <link href="https://www.bhagirathtechnologies.com/" rel="canonical">
 
 </head>

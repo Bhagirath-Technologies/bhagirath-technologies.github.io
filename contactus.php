@@ -1,4 +1,7 @@
-<?php include 'header.php'?>
+<?php
+$pageTitle = 'Contact';
+
+include 'header.php'?>
     <section id="contact-us" class="contact-us" style="margin-top: -80px;">
         <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="row mt-5">
