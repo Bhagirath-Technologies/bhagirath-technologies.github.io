@@ -42,14 +42,14 @@
                                 href="https://www.bhagirathtechnologies.com">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-3" href="Rental.html">Rental</a>
+                            <a class="nav-link px-3" href="Rental.php">Rental</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-3"
                                 href="https://bhagirathtechnologies.zohorecruit.in/careers">Careers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-3" href="contactus.html">Contact us</a>
+                            <a class="nav-link px-3" href="contactus.php">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -57,15 +57,3 @@
         </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-
-<!-- zoho add on for raising ticket or complaint script -->
-<script type="text/javascript" nonce="{place_your_nonce_value_here}"
-    src="https://desk.zoho.in/portal/api/web/inapp/104752000000269067?orgId=60025372578" defer></script>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-</body>
-
-</html>

@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet" href="./asset/css/card_section.css">
-    <link rel="shortcut icon" href="asset/icons/favicon12345.png" />
-    <title>Home | Bhagirath Technologies</title>
-    <link href="https://www.bhagirathtechnologies.com/" rel="canonical">
-
-</head>
-
-<body>
-
     <footer id="footer">
         <div class="footer-top mt-5">
             <div class="container">
@@ -40,12 +19,12 @@
                             <li><i class="bi bi-chevron-right"></i> <a
                                     href="https://www.bhagirathtechnologies.com">Home</a></li>
                             <hr class="footer-line">
-                            <li><i class="bi bi-chevron-right"></i> <a href="Rental.html">Rental</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="Rental.php">Rental</a></li>
                             <hr class="footer-line">
                             <li><i class="bi bi-chevron-right"></i> <a
                                     href="https://bhagirathtechnologies.zohorecruit.in/careers">Careers</a></li>
                             <hr class="footer-line">
-                            <li><i class="bi bi-chevr   on-right"></i> <a href="contactus.html">Contact us</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="contactus.php">Contact us</a></li>
                         </ul>
                     </div>
 
